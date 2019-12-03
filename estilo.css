@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(48, 156, 62);
+    font: 1em/150% Arial;
+}
+
+#pagewrap{
+    padding: 5px;
+    height: 1400px;
+    margin: 20px auto;
+}
+
+#valor{
+    width: 735px;
+    float: left;
+    height: 330px;
+}
+
+#lista{
+    width: 735px;
+    float: right;
+    height: 330px;
+}
+
+#sidebar1{
+    width: 740px;
+    float: left;
+    height: 330px;
+}
+
+#sidebar2{
+    width: 740px;
+    float: right;
+    height: 330px;
+}
+
+#footer{
+    clear: both;;
+}
+
+#sidebar1,#sidebar2,#valor,#content,#lista,#pagewrap,#footer{
+    border:double 5px #ccc;
+}
+
+#logo1{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+#logo2{
+    width: 200px;
+    float: right;
+    text-align: right;
+}
+
+#botella1{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+#botella2{
+    width: 200px;
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 1300px){
+    body{
+        background-color: rgb(175, 183, 206);
+    }
+
+    #logo1{
+        text-align: center;
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+
+    #pagewrap{
+        width: 90%;
+    }
+
+    #logo2{
+        text-align: center;
+        float: none;
+        width: 100px;
+        height: 100px;
+    }
+
+    #lista{
+        width: auto;
+        float:none;
+    }
+
+    #valor{
+        width: auto;
+        float: none;
+    }
+
+    #sidebar1{
+        width: auto;
+    }
+
+    #sidebar2{
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    body{
+        background-color: rgb(52, 199, 115);
+    }
+    
+}
+
+@media screen and (max-width: 501px){
+    body{
+        background-color: black;
+        color: aliceblue; 
+        font-size: small;  
+    }
+}
